@@ -1,0 +1,30 @@
+Elapsed time explanation 0: 29.323535919189453
+Elapsed time explanation 1: 27.929107904434204
+Elapsed time explanation 0: 28.93406319618225
+Elapsed time explanation 1: 28.192509174346924
+Elapsed time explanation 0: 29.478321313858032
+Elapsed time explanation 1: 27.90361261367798
+Elapsed time explanation 0: 29.08309054374695
+Elapsed time explanation 1: 27.820345401763916
+5 out of the last 9 calls to <function Model.make_test_function.<locals>.test_function at 0x7f10e0f6ae60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+5 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0f0c76a9e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Elapsed time explanation 0: 28.981929540634155
+Elapsed time explanation 1: 28.01754403114319
+6 out of the last 11 calls to <function Model.make_test_function.<locals>.test_function at 0x7f0f0c4c3200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+6 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f0f0c371cb0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Elapsed time explanation 0: 29.170799732208252
+Elapsed time explanation 1: 28.31455111503601
+PRED: [array([0.10654187, 0.        , 0.        , 0.        , 0.09480575,
+       0.        , 0.06879964, 0.1378806 , 0.        , 0.        ],
+      dtype=float32), array([0.13626814, 0.        , 0.18799633, 0.        , 0.        ,
+       0.        , 0.        , 0.1513341 , 0.        , 0.        ],
+      dtype=float32), array([0.0884344 , 0.10617828, 0.13897699, 0.        , 0.07891732,
+       0.        , 0.        , 0.        , 0.        , 0.        ],
+      dtype=float32), array([0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.02282119, 0.031396  , 0.        ],
+      dtype=float32), array([0.        , 0.        , 0.10967782, 0.12342596, 0.        ,
+       0.        , 0.09285188, 0.        , 0.07862175, 0.07962316],
+      dtype=float32), array([0.        , 0.        , 0.        , 0.        , 0.08029771,
+       0.0888162 , 0.        , 0.        , 0.        , 0.13548326],
+      dtype=float32)]
+PRED: [[0.27777777777777773, 0.3333333333333333, 0.19166666666666665, 0.303030303030303]]

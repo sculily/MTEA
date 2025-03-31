@@ -1,0 +1,33 @@
+PRED: [0.5560117]
+EARLY STOPPING EPOCH 0
+PRED: [0.5152195]
+EARLY STOPPING EPOCH 0
+PRED: [0.42806494]
+EARLY STOPPING EPOCH 0
+PRED: [0.33030537]
+EARLY STOPPING EPOCH 0
+5 out of the last 5 calls to <function Model.make_test_function.<locals>.test_function at 0x7fcd46efb710> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fcd46efb830> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+PRED: [0.3938161]
+EARLY STOPPING EPOCH 0
+6 out of the last 6 calls to <function Model.make_test_function.<locals>.test_function at 0x7fc8bc184560> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fc8bc0fb8c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+PRED: [0.37834135]
+EARLY STOPPING EPOCH 0
+PRED: [0.23741257]
+EARLY STOPPING EPOCH 0
+PRED: [0.29137164]
+EARLY STOPPING EPOCH 0
+PRED: [0.25729913]
+EARLY STOPPING EPOCH 0
+PRED: [array([0.        , 0.        , 0.50529075, 0.        , 0.5097762 ,
+       0.51123655, 0.5039638 ], dtype=float32), array([0.51197064, 0.51907045, 0.        , 0.        , 0.50244045,
+       0.        , 0.        ], dtype=float32), array([0.5129954 , 0.511843  , 0.51225215, 0.        , 0.        ,
+       0.        , 0.5105357 ], dtype=float32), array([0.        , 0.        , 0.54740053, 0.        , 0.52948546,
+       0.        , 0.        ], dtype=float32), array([0.5019708, 0.5000849, 0.5023326, 0.       , 0.       , 0.       ,
+       0.       ], dtype=float32), array([0.        , 0.        , 0.505387  , 0.        , 0.49269328,
+       0.        , 0.5075388 ], dtype=float32), array([0.50262874, 0.        , 0.51418746, 0.        , 0.        ,
+       0.        , 0.50006264], dtype=float32), array([0.49180806, 0.        , 0.49706137, 0.49975812, 0.510359  ,
+       0.4917558 , 0.        ], dtype=float32), array([0.5280202 , 0.        , 0.5254858 , 0.        , 0.        ,
+       0.53377473, 0.        ], dtype=float32)]
+PRED: [[0.5185185185185186, 0.6111111111111112, 0.40185185185185185, 0.5610200364298725]]

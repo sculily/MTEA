@@ -1,0 +1,33 @@
+-------- PARAMETERS -------
+logdir .
+readme 
+exp_batch 32
+batch_size 8
+exp_epochs 800
+epochs 100
+learning_rate 0.001
+cl_number 2
+dim_number 1024
+a_dim_number None
+n_samples_num 1000
+a_samples_num 10
+n_other 10
+n_same 0
+n_mean 3
+n_std 0.3
+a_mean None
+a_std None
+c_mean None
+c_std None
+n_adv 3
+n_class None
+dist_std 9
+dist_std_2 None
+corr_deg None
+threshold 0.5
+loss_weights [1.0, 0.0, 0.0, 1.0]
+corr_anom None
+anom_dims None
+dataset 21_Lymphography
+centers [[1.2, 6.7], [5.8, 3.6]]
+---------------------------
